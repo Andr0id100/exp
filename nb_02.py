@@ -19,3 +19,6 @@ def test_near_zero(a, tol=1e-3): assert tf.abs(a)<tol, f"Near zero: {a}"
 def mse(output, targ): return tf.reduce_mean(tf.math.pow(tf.squeeze(output, -1) - targ, 2))
 
 from tensorflow.keras import layers
+
+
+# Testingggg
